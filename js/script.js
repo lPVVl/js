@@ -20,3 +20,11 @@ const isCheked = true,
 console.log(isCheked && isClose); */
 
 const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели", "");
+
+const personalMovieDB = {
+    count: numberOfFilms.toExponential,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
